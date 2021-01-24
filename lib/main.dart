@@ -5,12 +5,11 @@ import 'package:flutter/material.dart';
 
 
 // Mis importaciones 
-
-import 'src/app.dart';
+import 'package:contador_app/src/app.dart';
 
 void main (){
 
-runApp( new MyApp());
+runApp( new MyApp() );
 
 
 }
