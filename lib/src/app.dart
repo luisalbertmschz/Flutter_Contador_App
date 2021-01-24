@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 
+import 'package:contador_app/src/pages/home_page.dart';
 
 class MyApp extends  StatelessWidget {
 
@@ -10,21 +11,16 @@ class MyApp extends  StatelessWidget {
 build( context ) {
 
 
-  return MaterialApp(
+  return  MaterialApp(
 
 
-  home: 
+    home: Center( 
+      
+      child: HomePage(),
   
-  Center(
-
-  child:Text('Hola Mundo') ,
-
-  )
-
+    ),
 
   );
-
-
 
 }
 
